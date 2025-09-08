@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let countdown;
     let isRunning = false;
     let timeLeft = 3600; // 1 hour in seconds
-    let alarmAudio = new Audio('assets/wew_alarm.wav');
+    let alarmAudio = new Audio('assets/alarm1.wav');
     let isAlarmActive = false;
     let activeButton = null;
     
