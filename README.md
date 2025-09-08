@@ -28,3 +28,23 @@ A simple timer application with a button that starts a 1-hour countdown.
 ## Browser Compatibility
 
 This timer app works in modern browsers that support JavaScript ES6 features.
+
+
+##TODO LIST (note to dev and AI)
+
+*add title
+*add maker name/ watermark
+*add option:
+    -1 hour only mode: only has 1 hour button
+    -normal mode: has a few set button (1hour, 15m, 1m, etc)
+*add hide function for main container when timer is running
+*modify stop function when timer is running to pause (that can continue running)
+*add stop button that shows up only when paused state
+*add dialogue to cancel/ stop timer when stop button is pressed
+*add custom timer where user can define how long the timer should run
+*add option for custom timer:
+    1. lenght (how long the timer should run) or 
+    2. specific time (alarm will go off on a certain time [similar to wake up alamr])
+*add better icons and images
+*add other options for alarm sound (alarm1.wav, alarm2.wav, etc.)
+*add option to set custom sound for alarm
