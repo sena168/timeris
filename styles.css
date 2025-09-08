@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000000;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgba(0, 0, 128, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    backdrop-filter: blur(5px);
+}
+
+.timer-display {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 0 #ffff00, -1px 1px 0 #ffff00, 1px -1px 0 #ffff00, -1px -1px 0 #ffff00;
+}
+
+#timer-button, #test-button, #minute-button {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 0 5px 10px 5px;
+    text-shadow: 1px 1px 0 black, -1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black;
+}
+
+#timer-button {
+    background-color: #800080;
+}
+
+#test-button {
+    background-color: #FFD700;
+}
+
+#minute-button {
+    background-color: #4CAF50;
+}
+
+#timer-button:hover {
+    background-color: #9400D3;
+}
+
+#test-button:hover {
+    background-color: #FFA500;
+}
+
+#minute-button:hover {
+    background-color: #45a049;
+}
+
+#timer-button:disabled, #test-button:disabled, #minute-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+#stop-button {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    background-color: #ff0000;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px 5px;
+    width: 80%;
+    text-shadow: 1px 1px 0 black, -1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black;
+}
+
+#stop-button:hover {
+    background-color: #cc0000;
+}
+
+#stop-button:disabled {
+    background-color: #ffcccc;
+    cursor: not-allowed;
+}
+
+.status {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: white;
+}
